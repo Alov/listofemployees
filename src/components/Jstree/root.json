@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "text": "Отдел кадров",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg",
+      "children": [
+        {
+          "text": "Иванов Иван Иванович",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+        },
+        {
+          "text": "Мотузко Михаил Степанович",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+        },
+        {
+          "text": "Карпов Олег Степанович",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+        }
+      ]
+    },
+    {
+      "text": "Юридический отдел",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg",
+      "children": [
+        {
+          "text": "Балабанов Илья Дмитриевич",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+        },
+        {
+          "text": "Хорвин Степан Владимирович",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+        },
+        {
+          "text": "Щанов Максим Максимович",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+        },
+        {
+          "text": "Демина Галина Сергеевна",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+        }
+      ]
+    },
+    {
+      "text": "IT отдел",
+      "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg",
+      "children": [
+        {
+          "text": "Frontend developers",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg",
+          "children": [
+            {
+              "text": "Хорвин Степан Владимирович",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+            },
+            {
+              "text": "Щанов Максим Максимович",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+            },
+            {
+              "text": "Демина Галина Сергеевна",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+            }
+          ]
+        },
+        {
+          "text": "Backend developers",
+          "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg",
+          "children": [
+            {
+              "text": "Хорвин Степан Владимирович",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+            },
+            {
+              "text": "Щанов Максим Максимович",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+            },
+            {
+              "text": "Демина Галина Сергеевна",
+              "icon": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/4b/4bdfe8803013d433e1b078a05af7f89d75f2f182.jpg"
+            }
+          ]
+        }
+
+
+      ]
+    }
+
+
+  ]
+
+}
+
+
+
