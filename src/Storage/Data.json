@@ -4,82 +4,82 @@
       "id": "0",
       "position": "Backend developer",
       "avatarURL": "",
-      "Department": "0",
+      "Department": "HR",
       "FirstName": "Denis",
       "LastName": "Ivanov",
       "SecondName": "Olegovich",
       "Birthday": "658195200000"
     },
-    {
-      "id": "1",
-      "position": "Frontend developer",
-      "avatarURL": "",
-      "Department": "0",
-      "FirstName": "Artem",
-      "LastName": "Petrov",
-      "SecondName": "Petrovich",
-      "Birthday": "658195200000"
-    },
-    {
-      "id": "2",
-      "position": "developer 2",
-      "avatarURL": "",
-      "Department": "1",
-      "FirstName": "Ilia",
-      "LastName": "Motuzko",
-      "SecondName": "Ivanovich",
-      "Birthday": "658195200000"
-    },
-    {
-      "id": "3",
-      "position": "developer 3",
-      "avatarURL": "",
-      "Department": "1",
-      "FirstName": "Irina",
-      "LastName": "Stepanova",
-      "SecondName": "Vladimirovna",
-      "Birthday": "658195200000"
-    },
+  {
+    "id": "1",
+    "position": "Frontend developer",
+    "avatarURL": "",
+    "Department": "HR",
+    "FirstName": "Artem",
+    "LastName": "Petrov",
+    "SecondName": "Petrovich",
+    "Birthday": "658195200000"
+  },
+  {
+    "id": "2",
+    "position": "developer 2",
+    "avatarURL": "",
+    "Department": "IT",
+    "FirstName": "Ilia",
+    "LastName": "Motuzko",
+    "SecondName": "Ivanovich",
+    "Birthday": "658195200000"
+  },
+  {
+    "id": "3",
+    "position": "developer 3",
+    "avatarURL": "",
+    "Department": "IT",
+    "FirstName": "Irina",
+    "LastName": "Stepanova",
+    "SecondName": "Vladimirovna",
+    "Birthday": "658195200000"
+  },
     {
       "id": "4",
       "position": "developer 4",
       "avatarURL": "",
-      "Department": "2",
+      "Department": "Legal",
       "FirstName": "Roman",
       "LastName": "Svetlakov",
       "SecondName": "Mihailovich",
       "Birthday": "658195200000"
     },
-    {
-      "id": "5",
-      "position": "developer 5",
-      "avatarURL": "",
-      "Department": "2",
-      "FirstName": "Maxim",
-      "LastName": "Muhin",
-      "SecondName": "Maratovich",
-      "Birthday": "658195200000"
-    },
-    {
-      "id": "6",
-      "position": "developer",
-      "avatarURL": "",
-      "Department": "3",
-      "FirstName": "Mihal",
-      "LastName": "Kerianov",
-      "SecondName": "Ivanovich",
-      "Birthday": "658195200000"
-    },
-    {
-      "id": "7",
-      "position": "developer",
-      "avatarURL": "",
-      "Department": "3",
-      "FirstName": "Alex",
-      "LastName": "Genzerski",
-      "SecondName": "Olegovich",
-      "Birthday": "658195200000"
-    }
+  {
+    "id": "5",
+    "position": "developer 5",
+    "avatarURL": "",
+    "Department": "Legal",
+    "FirstName": "Maxim",
+    "LastName": "Muhin",
+    "SecondName": "Maratovich",
+    "Birthday": "658195200000"
+  },
+  {
+    "id": "6",
+    "position": "developer",
+    "avatarURL": "",
+    "Department": "Legal",
+    "FirstName": "Mihail",
+    "LastName": "Kerianov",
+    "SecondName": "Ivanovich",
+    "Birthday": "658195200000"
+  },
+  {
+    "id": "7",
+    "position": "developer",
+    "avatarURL": "",
+    "Department": "Legal",
+    "FirstName": "Alex",
+    "LastName": "Genzerski",
+    "SecondName": "Olegovich",
+    "Birthday": "658195200000"
+  }
 
   ]
 }
