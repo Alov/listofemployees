@@ -1,22 +1,22 @@
-import React from 'react';
-import $ from 'jquery'
-import 'jstree'
-import Store from '../../Storage/Store'
-import Employee from '../../Storage/Model/Employee';
+import React, {useEffect} from "react";
+import Employee from "../../Storage/Model/Employee";
+import $ from "jquery";
 import {useDispatch} from "react-redux";
+import 'jstree'
 
-class JsTree extends React.Component<{ store: Store }> {
 
-    private store: Store = this.props.store
-    private data: any;
+function FuncJsTree(props:any) {
 
-    groupEmployee() {
-        let allEmployeers = this.props.store.getAllEmployeers();
+    let dispatch = useDispatch();
+
+    let groupEmployee = function () {
+        console.log(props)
+        let allEmployeers = props.employeeData;
         let departmentsNames: Array<string> = [];
         let globalArray: Array<Array<Employee>> = [];
         let result = [];
 
-        /*Ищем названия отделов*/
+        /*РС‰РµРј РЅР°Р·РІР°РЅРёСЏ РѕС‚РґРµР»РѕРІ*/
         for (let i = 0; i < allEmployeers.length; i++) {
             let name = allEmployeers[i].department
             let exist = departmentsNames.find((e) => {
@@ -26,12 +26,12 @@ class JsTree extends React.Component<{ store: Store }> {
                 departmentsNames.push(name)
             }
         }
-        /*Ищем  людей по названию отдела*/
+        /*РС‰РµРј  Р»СЋРґРµР№ РїРѕ РЅР°Р·РІР°РЅРёСЋ РѕС‚РґРµР»Р°*/
         for (let i = 0; i < departmentsNames.length; i++) {
             let departmentPeoples = allEmployeers.filter((emp:Employee) => emp.department === departmentsNames[i])
             globalArray.push(departmentPeoples)
         }
-        // собираем объект для jstree
+        // СЃРѕР±РёСЂР°РµРј РѕР±СЉРµРєС‚ РґР»СЏ jstree
         for (let i = 0; i < globalArray.length; i++) {
             let department = globalArray[i];
             let obj = {
@@ -48,17 +48,18 @@ class JsTree extends React.Component<{ store: Store }> {
             result.push(obj);
         }
         return result;
-        // console.log(result)
-    } //конец функции
+    }
+    let data:any
 
-    componentDidMount() {
-        this.data = this.groupEmployee()
+
+    useEffect(() => {
+        data = groupEmployee()
+        console.log("Component mounted")
         $('#jsTree')
             .on('changed.jstree', function (e, data) {
 
                 let emp = data.node.data;
                 console.log(emp);
-                let dispatch = useDispatch()
                 dispatch({
                     type: "SET_CURRENT_EMP",
                     payload: {
@@ -68,24 +69,18 @@ class JsTree extends React.Component<{ store: Store }> {
 
             })
             .jstree({
-            'core': {
-                'data': this.data,
-                /*'datatype': 'json'*/
-            }
-        })
+                'core': {
+                    'data': data,
+                    /*'datatype': 'json'*/
+                }
+            })
+    })
 
-    }
-
-    render() {
-        return (
-            <div>
-                <div id="jsTree"></div>
-            </div>
-
-
-        )
-    }
-
+    return (
+        <div>
+            <div id="jsTree"></div>
+        </div>
+    )
 }
 
-export default JsTree;
+export default FuncJsTree;
